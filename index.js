@@ -172,7 +172,7 @@ const formattedFunds = totalFundsRaised.toLocaleString();
 
 // create a string that explains the number of unfunded games using the ternary operator
 const message = unfundedGamesCount > 0 
-    ? `A total of $${formattedFunds} has been raised for ${totalGames} games. Currently, ${unfundedGamesCount} games remain unfunded. We need your help to fund these amazing games!` 
+    ? `The purpose of our company is to fund independent games. We've been in operation for 12 years. A total of $${formattedFunds} has been raised for ${totalGames} games. Currently, ${unfundedGamesCount} games remain unfunded. We need your help to fund these amazing games!` 
     : `A total of $${formattedFunds} has been raised for ${totalGames} games. All games are fully funded. Great job, backers!`;
 
 
